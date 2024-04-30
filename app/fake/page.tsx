@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Head from "next/head";
 import Navbar from "@/components/navbar/nav";
 import { Metadata } from "next";
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 function page() {
   return (
-    <div>
+    <div >
       
       {/* navbar component */}
       <Navbar />
