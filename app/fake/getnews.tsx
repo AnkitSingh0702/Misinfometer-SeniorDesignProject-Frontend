@@ -18,7 +18,7 @@ export default function GetNews() {
 
     const handleCheck = async () => {
         try {
-            const response = await axios.post("http://127.0.0.1:5000/", {
+            const response = await axios.post("https://flask-server-fj3h.onrender.com/", {
                 text: news,
             });
             toast({
