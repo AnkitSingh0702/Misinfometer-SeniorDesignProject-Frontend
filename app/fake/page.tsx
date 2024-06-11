@@ -70,7 +70,7 @@ function Page() {
   return (
     <div className="">
       <Navbar/>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-3">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-5xl p-4 text-center font-bold text-transparent bg-clip-text bg-gradient-to-l from-[#5ea67d] via-[#197966] to-[#1e9381]">
             Fake News Detection
