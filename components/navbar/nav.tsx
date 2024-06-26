@@ -19,9 +19,6 @@ function Navbar() {
             Home
           </Link>
           <div className="w-[2px] rounded-full h-8 bg-gray-600" />
-          {/* <p className=" tracking-wide sedan-regular text-slate-400 block  py-2 hover:text-slate-300 cursor-pointer bg-no-repeat w-fit duration-500 ease-in-out bg-[0_100%] [background-size:0_2px] border-b-0 bg-gradient-to-r from-white to-white hover:[background-size:100%_2px]">
-            News Update
-          </p> */}
           <ModeToggle />
         </div>
       </nav>
